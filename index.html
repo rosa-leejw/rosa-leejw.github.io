@@ -1,88 +1,204 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jiwan Lee</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', serif;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #222;
+      background: #fafaf8;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 32px;
+    }
+    table { border-collapse: collapse; width: 100%; }
+    td { vertical-align: top; }
+    .sidebar {
+      width: 220px;
+      padding-right: 40px;
+    }
+    .sidebar img {
+      width: 200px;
+      display: block;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+    .sidebar p { font-size: 13.5px; line-height: 1.8; }
+    h1 {
+      font-size: 26px;
+      font-weight: normal;
+      letter-spacing: 0.02em;
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #555;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+    a { color: #1a1a8c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .bio { text-align: justify; margin-bottom: 12px; font-size: 14.5px; }
+    .links { margin-bottom: 4px; font-size: 14px; }
+    .links a { margin-right: 14px; }
+ 
+    /* Publication entries */
+    .pub {
+      margin-bottom: 18px;
+      padding-left: 0;
+    }
+    .pub-title { font-weight: bold; font-size: 14.5px; }
+    .pub-authors { font-size: 13.5px; color: #444; }
+    .pub-meta { font-size: 13px; color: #666; }
+    .pub-meta em { font-style: italic; }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-style: normal;
+      padding: 1px 7px;
+      border-radius: 3px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .badge-oral { background: #e8f0fe; color: #1a56c4; border: 1px solid #b3c8f5; }
+    .badge-award { background: #fef3e2; color: #b45309; border: 1px solid #f5d08a; }
+    .status-review { color: #888; font-style: italic; font-size: 13px; }
+    .status-wip { color: #aaa; font-style: italic; font-size: 13px; }
+ 
+    strong.me { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <table>
     <tr>
-      <td style="vertical-align: top; width: 260px; padding-right: 30px;">
-        <img src="photo.jpg" alt="Profile photo" width="240"> 
-        
-        <p><strong>Contact Info</strong><br>
-        Office: 
-          <a href="https://www.postech.ac.kr/eng/about/campus_map.do?id=15&lat=36.01270362414207&lng=129.32145283057707" target="_blank">
-          Room 115, Science Building 4
-          </a><br>
-        Pohang University of Science and Technology (POSTECH)<br>
-        Email: <a href="mailto:jiwan95@postech.ac.kr">jiwan95@postech.ac.kr</a><br>
-        Lab: <a href="https://interaction.postech.ac.kr/" target="_blank">Interaction Lab</a><br>  
+      <td class="sidebar">
+        <img src="photo.jpg" alt="Profile photo">
+ 
+        <p><strong>Contact</strong><br>
+        <a href="https://www.postech.ac.kr/eng/about/campus_map.do?id=15&lat=36.01270362414207&lng=129.32145283057707" target="_blank">Room 115, Science Bldg 4</a><br>
+        POSTECH, Pohang, Korea<br>
+        <a href="mailto:jiwan95@postech.ac.kr">jiwan95@postech.ac.kr</a><br>
+        <a href="https://interaction.postech.ac.kr/" target="_blank">Interaction Lab</a>
         </p>
       </td>
-
-      <td style="vertical-align: top;">
+ 
+      <td>
         <h1>Jiwan Lee</h1>
-
-        <p style="text-align: justify;">
-          I am Jiwan Lee, a postdoctoral researcher in Computer Science and Engineering at POSTECH, working under the supervision of Prof. Seungmoon Choi.
-          I received my Ph.D. in CSE in 2025.
-          <br>
-          My research investigates multisensory perception and haptic experience design, focusing on how sensory cues and their combinations are perceived and translated into authoring for improved experience quality. 
-          <br>
+ 
+        <p class="bio">
+          I am a postdoctoral researcher in Computer Science and Engineering at POSTECH, working under the supervision of Prof. Seungmoon Choi. I received my Ph.D. in CSE in 2025.
+        </p>
+        <p class="bio">
+          My research investigates multisensory perception and haptic experience design, focusing on how sensory cues and their combinations are perceived and translated into authoring for improved experience quality.
+        </p>
+        <p class="bio">
           I am currently extending my recent work and seeking postdoctoral opportunities that align with my expertise in haptics, multisensory perception, and immersive experience design.
         </p>
-
-        <p>
-          <a href="https://drive.google.com/file/d/13FGtpQrLjRdkTUKxusSf6jmPVPT11dID/view?usp=sharing" target="_blank">Curriculum Vitae</a><br>
-        </p>
-        <p>
+ 
+        <p class="links">
+          <a href="https://drive.google.com/file/d/13FGtpQrLjRdkTUKxusSf6jmPVPT11dID/view?usp=sharing" target="_blank">Curriculum Vitae</a>
           <a href="https://scholar.google.com/citations?user=g9Mm2uUAAAAJ&hl=en" target="_blank">Google Scholar</a>
         </p>
-
-        <h2>Recent Publications and Ongoing Research</h2> 
-        <p>
-          <strong>Automatic Tuning of Haptic Motion Effects to Evoke Specific Feelings in Multisensory Content</strong><br>
-          Jiwan Lee, Dawoon Jeong, Sung H. Han, and Seungmoon Choi — CHI, 2025<br>
-          <em>Full conference paper (oral)</em> 
-          <a href="https://doi.org/10.1145/3706598.3713908" target="_blank">DOI</a>  
-        </p>
-        <p>
-          <strong>Motion and Vibration Coupling</strong><br>
-          Jiwan Lee and Seungmoon Choi<br> 
-          <em>Under review</em> 
-        </p>
-        <p>
-          <strong>Multisensory Simultaneity Perception for Haptic Rendering</strong><br>
-          Jiwan Lee, Gyeore Yun, and Seungmoon Choi<br>  
-          <em>Under review</em> 
-        </p>
-        <p>
-          <strong>Multisensory Cue Reliability for Haptic Rendering</strong><br>
-          Taehyung Jung, Jiwan Lee, Junwoo Kim, and Seungmoon Choi<br> 
-          <em>Under review</em> 
-        </p>
-        <p>
-          <strong>Haptic System Evaluations with Deaf and Hard-of-Hearing Users</strong><br>
-          Heeji Sohn, Hyunuk Kim, Jiwan Lee, Dajin Lee, and Seungmoon Choi<br> 
-          <em>Under review</em> 
-        </p>
-        <p>
-          <strong>Motion Feedback Synthesis and Perception in Virtual Reality</strong><br>  
-          <em>Under submission</em> 
-        </p>
-        <p>
-          <strong>Preference-Driven Haptic Generation</strong><br>  
-          <em>Working in progress</em> 
-        </p>
-        <p>
-          <strong>Visuo-Haptic Rendering under Varying Visual Conditions</strong><br>  
-          <em>Working in progress</em> 
-        </p>
-        <p>
-          <strong>Interactive Machine Learning with Naiive Users</strong><br>  
-          <em>Working in progress</em> 
-        </p>
+ 
+        <!-- PUBLICATIONS -->
+        <h2>Publications</h2>
+ 
+        <div class="pub">
+          <div class="pub-title">Automatic Tuning of Haptic Motion Effects to Evoke Specific Feelings in Multisensory Content</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Dawoon Jeong, Sung H. Han, and Seungmoon Choi</div>
+          <div class="pub-meta">CHI 2025 <span class="badge badge-oral">Oral</span> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3706598.3713908" target="_blank">DOI</a></div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Audiovisual-Haptic Simultaneity Perception across the Body for Multisensory Applications</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Gyeore Yun, and Seungmoon Choi</div>
+          <div class="pub-meta">EuroHaptics 2024 &nbsp;·&nbsp; <a href="https://doi.org/10.1007/978-3-031-70058-3_4" target="_blank">DOI</a></div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Telemetry-based Haptic Rendering for Racing Game Experience Improvement</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Junwoo Kim, Junghan Kang, Eunjeong Jo, Dong Cheol Park, and Seungmoon Choi</div>
+          <div class="pub-meta">IEEE Transactions on Haptics, 2024 &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TOH.2024.3357885" target="_blank">DOI</a></div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Sensory Cue Integration of Visual and Vestibular Stimuli: A Case Study for 4D Rides</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Sung H. Han, and Seungmoon Choi</div>
+          <div class="pub-meta">Virtual Reality, 2023 &nbsp;·&nbsp; <a href="https://doi.org/10.1007/s10055-023-00762-7" target="_blank">DOI</a></div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Motion Effects: Perceptual Space and Synthesis for Specific Perceptual Properties</div>
+          <div class="pub-authors">Suhwan Han*, <strong class="me">Jiwan Lee*</strong>, Gyeore Yun*, Sung H. Han, and Seungmoon Choi &nbsp;<span style="font-size:12px;color:#888;">(*equal contribution)</span></div>
+          <div class="pub-meta">IEEE Transactions on Haptics, 2022 &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TOH.2022.3196950" target="_blank">DOI</a></div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Absolute and Differential Thresholds of Motion Effects in Cardinal Directions</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Jiyeon Park, and Seungmoon Choi</div>
+          <div class="pub-meta">VRST 2021 &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3489849.3489870" target="_blank">DOI</a></div>
+        </div>
+ 
+        <!-- UNDER REVIEW -->
+        <h2>Under Review</h2>
+ 
+        <div class="pub">
+          <div class="pub-title">Characterizing Perceptual Effects of Joint Motion–Vibration for Multisensory Content Design</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong> and Seungmoon Choi</div>
+          <div class="pub-meta status-review">Under review</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Audiovisual-Haptic Simultaneity Perception: Effects of Body Site and Haptic Parameters with Applications</div>
+          <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Gyeore Yun, and Seungmoon Choi</div>
+          <div class="pub-meta status-review">Under review</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Perceiving Compliance in Virtual Reality with Directional Cue Reliability</div>
+          <div class="pub-authors">Taehyung Jung, <strong class="me">Jiwan Lee</strong>, Junwoo Kim, and Seungmoon Choi</div>
+          <div class="pub-meta status-review">Under review</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Evaluating Semantic and Spatial Haptic Feedback in Audiovisual Content with Deaf and Hard-of-Hearing Users</div>
+          <div class="pub-authors">Heeji Sohn, Hyunuk Kim, <strong class="me">Jiwan Lee</strong>, Dajin Lee, and Seungmoon Choi</div>
+          <div class="pub-meta status-review">Under review</div>
+        </div>
+ 
+        <!-- WORK IN PROGRESS -->
+        <h2>Work in Progress</h2>
+ 
+        <div class="pub">
+          <div class="pub-title">Motion Feedback Synthesis and Perception in Virtual Reality</div>
+          <div class="pub-meta status-wip">Under submission</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Preference-Driven Haptic Generation</div>
+          <div class="pub-meta status-wip">Work in progress</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Visuo-Haptic Rendering under Varying Visual Conditions</div>
+          <div class="pub-meta status-wip">Work in progress</div>
+        </div>
+ 
+        <div class="pub">
+          <div class="pub-title">Interactive Machine Learning with Naive Users</div>
+          <div class="pub-meta status-wip">Work in progress</div>
+        </div>
+ 
       </td>
     </tr>
   </table>
