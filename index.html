@@ -6,6 +6,304 @@
   <title>Jiwan Lee</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+  <header class="profile-bar">
+    <div class="profile-inner">
+      <img class="profile-photo" src="photo.jpg" alt="Profile photo of Jiwan Lee">
+
+      <div class="profile-summary">
+        <h1>Jiwan Lee</h1>
+        <p>Postdoctoral Researcher in Computer Science and Engineering at POSTECH</p>
+      </div>
+
+      <nav class="profile-links" aria-label="Profile links">
+        <a href="mailto:jiwan95@postech.ac.kr">Email</a>
+        <a href="https://drive.google.com/file/d/13FGtpQrLjRdkTUKxusSf6jmPVPT11dID/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="https://scholar.google.com/citations?user=g9Mm2uUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://interaction.postech.ac.kr/" target="_blank" rel="noopener noreferrer">Interaction Lab</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <p class="bio">I am a postdoctoral researcher in Computer Science and Engineering at POSTECH, working under the supervision of Prof. Seungmoon Choi. I received my Ph.D. in CSE in 2025.</p>
+      <p class="bio">My research investigates multisensory perception and haptic experience design, focusing on how sensory cues and their combinations are perceived and translated into authoring for improved experience quality.</p>
+      <p class="bio">I am currently extending my recent work and seeking postdoctoral opportunities that align with my expertise in haptics, multisensory perception, and immersive experience design.</p>
+    </section>
+
+    <nav class="tabs" role="tablist" aria-label="Research sections">
+      <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="publications" data-tab="publications">Publications</button>
+      <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="under-review" data-tab="under-review">Under Review</button>
+      <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="ongoing-research" data-tab="ongoing-research">Ongoing Research</button>
+    </nav>
+
+    <section id="publications" class="tab-content active" role="tabpanel">
+      <p class="section-note">Select an item to view its description and teaser image. * indicates equal contribution.</p>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Perceiving Compliance in Virtual Reality"
+        data-subtitle="IEEE TVCG 2026 · IEEE ISMAR Oral"
+        data-description="This work investigates how interaction direction and visual–haptic discrepancy affect cue weighting in virtual reality."
+        data-image="images/compliance.jpg">
+        <div class="pub-title">Perceiving Compliance in Virtual Reality: Effects of Interaction Direction and Sensory Discrepancy on Visuo-Haptic Weighting</div>
+        <div class="pub-authors">Taehyung Jung*, <strong class="me">Jiwan Lee*</strong>, Junwoo Kim, and Seungmoon Choi</div>
+        <div class="pub-meta">To appear in IEEE TVCG 2026 · IEEE ISMAR <span class="badge">Oral</span> <span class="badge badge-orange">Mentored</span> · Acceptance rate: 16%</div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Automatic Tuning of Haptic Motion Effects"
+        data-subtitle="ACM CHI 2025"
+        data-description="This work presents an automatic method for tuning motion effects to evoke intended perceptual qualities in multisensory content."
+        data-image="images/automatic-tuning.jpg">
+        <div class="pub-title">Automatic Tuning of Haptic Motion Effects to Evoke Specific Feelings in Multisensory Content</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Dawoon Jeong, Sung H. Han, and Seungmoon Choi</div>
+        <div class="pub-meta">ACM CHI 2025 <span class="badge">Oral</span> · Acceptance rate: 25.1% · <a href="https://doi.org/10.1145/3706598.3713908" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Audiovisual-Haptic Simultaneity Perception"
+        data-subtitle="EuroHaptics 2024"
+        data-description="This study characterizes audiovisual–haptic simultaneity perception at multiple body sites."
+        data-image="images/simultaneity.jpg">
+        <div class="pub-title">Audiovisual-Haptic Simultaneity Perception across the Body for Multisensory Applications</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Gyeore Yun, and Seungmoon Choi</div>
+        <div class="pub-meta">EuroHaptics 2024 <span class="badge">Oral</span> · Acceptance rate: 26.1% · <a href="https://doi.org/10.1007/978-3-031-70058-3_4" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Telemetry-based Haptic Rendering"
+        data-subtitle="IEEE Transactions on Haptics 2024"
+        data-description="This work develops telemetry-driven haptic rendering for racing games."
+        data-image="images/racing.jpg">
+        <div class="pub-title">Telemetry-based Haptic Rendering for Racing Game Experience Improvement</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Junwoo Kim, Jeonggoo Kang, Eunsoo Jo, Dong Cheol Park, and Seungmoon Choi</div>
+        <div class="pub-meta">IEEE Transactions on Haptics 2024 · <a href="https://doi.org/10.1109/TOH.2024.3357885" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Sensory Cue Integration for 4D Rides"
+        data-subtitle="Virtual Reality 2023"
+        data-description="This study examines how visual and vestibular signals are integrated during 4D ride experiences."
+        data-image="images/cue-integration.jpg">
+        <div class="pub-title">Sensory Cue Integration of Visual and Vestibular Stimuli: A Case Study for 4D Rides</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Sung H. Han, and Seungmoon Choi</div>
+        <div class="pub-meta">Springer Virtual Reality 2023 · <a href="https://doi.org/10.1007/s10055-023-00762-7" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Motion Effects: Perceptual Space and Synthesis"
+        data-subtitle="IEEE Transactions on Haptics 2022"
+        data-description="This work constructs a perceptual space of motion effects and develops synthesis methods for specified perceptual properties."
+        data-image="images/motion-effects.jpg">
+        <div class="pub-title">Motion Effects: Perceptual Space and Synthesis for Specific Perceptual Properties</div>
+        <div class="pub-authors">Sangyoon Han*, <strong class="me">Jiwan Lee*</strong>, Gyeore Yun*, Sung H. Han, and Seungmoon Choi</div>
+        <div class="pub-meta">IEEE Transactions on Haptics 2022 · <a href="https://doi.org/10.1109/TOH.2022.3196950" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Thresholds of Motion Effects"
+        data-subtitle="ACM VRST 2021"
+        data-description="This psychophysical study measures absolute and differential thresholds for motion effects across cardinal directions."
+        data-image="images/motion-thresholds.jpg">
+        <div class="pub-title">Absolute and Differential Thresholds of Motion Effects in Cardinal Directions</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Jaejun Park, and Seungmoon Choi</div>
+        <div class="pub-meta">ACM VRST 2021 <span class="badge">Oral</span> · <a href="https://doi.org/10.1145/3489849.3489870" target="_blank" rel="noopener noreferrer">DOI</a></div>
+      </article>
+    </section>
+
+    <section id="under-review" class="tab-content" role="tabpanel" hidden>
+      <p class="section-note">Select an item to view its current research focus.</p>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Motion and Vibration Coupling"
+        data-subtitle="Under review"
+        data-description="This project investigates how inertial motion and vibration jointly shape perceptual qualities."
+        data-image="images/motion-vibration.jpg">
+        <div class="pub-title">Motion and Vibration Coupling</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong> and Seungmoon Choi</div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Multisensory Simultaneity Perception"
+        data-subtitle="Under review"
+        data-description="This project examines spatial and signal-related factors affecting audiovisual–haptic simultaneity perception."
+        data-image="images/multisensory-simultaneity.jpg">
+        <div class="pub-title">Multisensory Simultaneity Perception for Haptic Rendering</div>
+        <div class="pub-authors"><strong class="me">Jiwan Lee</strong>, Gyeore Yun, and Seungmoon Choi</div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Haptic System Evaluations with DHH Users"
+        data-subtitle="Under review"
+        data-description="This work evaluates haptic systems with Deaf and Hard-of-Hearing users."
+        data-image="images/dhh-haptics.jpg">
+        <div class="pub-title">Haptic System Evaluations with Deaf and Hard-of-Hearing Users</div>
+        <div class="pub-authors">Heeji Sohn, Hyunuk Kim, <strong class="me">Jiwan Lee</strong>, Dajin Lee, and Seungmoon Choi</div>
+      </article>
+
+      <article class="research-item" tabindex="0" role="button"
+        data-title="Motion Feedback Perception and Synthesis"
+        data-subtitle="Under review"
+        data-description="This review organizes research on motion feedback perception, rendering, and synthesis in virtual reality."
+        data-image="images/motion-review.jpg">
+        <div class="pub-title">Motion Feedback Perception and Synthesis in Virtual Reality: A Review</div>
+      </article>
+    </section>
+
+    <section id="ongoing-research" class="tab-content" role="tabpanel" hidden>
+      <p class="section-note">Select a topic to view its motivation and current direction.</p>
+
+      <div class="research-grid">
+        <article class="research-card" tabindex="0" role="button"
+          data-title="Learning-based Automatic Haptic Generation"
+          data-subtitle="Ongoing research"
+          data-description="This research explores learning-based approaches for generating haptic feedback from audiovisual content."
+          data-image="images/automatic-haptics.jpg">
+          <h3>Learning-based Automatic Haptic Generation</h3>
+        </article>
+
+        <article class="research-card" tabindex="0" role="button"
+          data-title="Interactive Haptic Authoring"
+          data-subtitle="Ongoing research"
+          data-description="This research investigates authoring interfaces for creating, inspecting, and refining haptic effects."
+          data-image="images/haptic-authoring.jpg">
+          <h3>Interactive Haptic Authoring</h3>
+        </article>
+
+        <article class="research-card" tabindex="0" role="button"
+          data-title="Visuo-Haptic Rendering"
+          data-subtitle="Ongoing research"
+          data-description="This research examines how visual and haptic cues interact in virtual environments."
+          data-image="images/visuo-haptic.jpg">
+          <h3>Visuo-Haptic Rendering</h3>
+        </article>
+
+        <article class="research-card" tabindex="0" role="button"
+          data-title="Visual Priors for Stiffness Perception"
+          data-subtitle="Ongoing research"
+          data-description="This project studies how visual material appearance changes perceived stiffness."
+          data-image="images/visual-priors.jpg">
+          <h3>Visual Priors for Stiffness Perception</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="research-modal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close">&times;</button>
+
+      <div class="modal-visual">
+        <img id="modal-image" alt="">
+        <div class="image-placeholder" id="image-placeholder">Add teaser image</div>
+      </div>
+
+      <div class="modal-copy">
+        <p class="modal-subtitle" id="modal-subtitle"></p>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const tabs = [...document.querySelectorAll('.tab-button')];
+    const panels = [...document.querySelectorAll('.tab-content')];
+
+    function activateTab(selected) {
+      tabs.forEach(tab => {
+        const active = tab === selected;
+        tab.classList.toggle('active', active);
+        tab.setAttribute('aria-selected', String(active));
+      });
+
+      panels.forEach(panel => {
+        const active = panel.id === selected.dataset.tab;
+        panel.classList.toggle('active', active);
+        panel.hidden = !active;
+      });
+    }
+
+    tabs.forEach(tab => tab.addEventListener('click', () => activateTab(tab)));
+
+    const backdrop = document.getElementById('research-modal');
+    const closeButton = backdrop.querySelector('.modal-close');
+    const modalTitle = document.getElementById('modal-title');
+    const modalSubtitle = document.getElementById('modal-subtitle');
+    const modalDescription = document.getElementById('modal-description');
+    const modalImage = document.getElementById('modal-image');
+    const placeholder = document.getElementById('image-placeholder');
+    let previousFocus;
+
+    function openModal(item) {
+      previousFocus = document.activeElement;
+      modalTitle.textContent = item.dataset.title || '';
+      modalSubtitle.textContent = item.dataset.subtitle || '';
+      modalDescription.textContent = item.dataset.description || '';
+
+      placeholder.hidden = false;
+      modalImage.hidden = true;
+      modalImage.alt = `${item.dataset.title} teaser image`;
+
+      if (item.dataset.image) {
+        modalImage.onload = () => {
+          modalImage.hidden = false;
+          placeholder.hidden = true;
+        };
+        modalImage.onerror = () => {
+          modalImage.hidden = true;
+          placeholder.hidden = false;
+        };
+        modalImage.src = item.dataset.image;
+      }
+
+      backdrop.hidden = false;
+      document.body.classList.add('modal-open');
+      closeButton.focus();
+    }
+
+    function closeModal() {
+      backdrop.hidden = true;
+      document.body.classList.remove('modal-open');
+      modalImage.removeAttribute('src');
+      if (previousFocus) previousFocus.focus();
+    }
+
+    document.querySelectorAll('.research-item, .research-card').forEach(item => {
+      item.addEventListener('click', event => {
+        if (event.target.closest('a')) return;
+        openModal(item);
+      });
+
+      item.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          openModal(item);
+        }
+      });
+    });
+
+    closeButton.addEventListener('click', closeModal);
+
+    backdrop.addEventListener('click', event => {
+      if (event.target === backdrop) closeModal();
+    });
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !backdrop.hidden) closeModal();
+    });
+  </script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiwan Lee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
   <table class="page-layout">
@@ -187,4 +485,4 @@
     });
   </script>
 </body>
-</html>
+</html> -->
